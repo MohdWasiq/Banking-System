@@ -1,0 +1,191 @@
+*{
+	margin:0;
+	padding:0;
+}
+body
+{
+	font-family:sans-serif;
+}
+#nav-bar
+{
+	background-color:black;
+	position: sticky;
+	top:0;
+	background-color: black;
+}
+.nav-link:hover{
+    background-color:black;
+}
+.navbar
+{
+
+    padding: 0 !important;
+}
+navbar-brand img
+{
+	height:40px;
+	padding-left:20px;
+}
+.navbar-nav li
+{
+	padding: 9px 18px;
+    margin-left: 0px;
+}
+.navbar-nav li a
+{
+color:#fff !important;
+font-weight:600;
+float:right;
+text-align:left;
+}
+.fa-bars
+{
+	color:#fff;
+	font-size:30p !important;
+}
+.navbar-toggler
+{
+	outline:none !important;
+}
+/*---banner section--*/
+#main
+{
+text-align: center;
+background-color:lawngreen;
+color:white;
+padding-top: 1%;
+padding-bottom: 1%;
+}
+.container h1 img{
+	padding-bottom: 10px;
+}
+
+
+/*---service section---*/
+#features1
+{
+	text-align: center;
+	padding: 13% 15%;
+}
+ #features
+ {
+     text-align: center;
+	 padding: 10% 15%; 
+     /* background-image: url('https://images.pexels.com/photos/315788/pexels-photo-315788.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500'); */
+     background-image: url('https://www.papertyari.com/wp-content/uploads/2020/03/internet-banking-guidelines.png?x20016');
+    background-size: 846px 500px;
+ }
+ .features1 h3
+{
+	padding:5px;
+	margin-top:25px;
+	text-transform:uppercase;
+}
+
+.features h3
+{
+	padding:5px;
+	margin-top:25px;
+	text-transform:uppercase;
+}
+
+.spbank
+{
+	background-color: darkblue;
+	width: 260px;
+	height: 55px;
+	font-size: x-large;
+	border-radius: 9px;
+	border-color: white;
+	color: white;
+}
+.spbank:hover
+{
+	background-color: lightseagreen;
+}
+
+.spbank1
+{
+	margin-left: 5px;
+	background-color: darkblue;
+	width: 260px;
+	height: 55px;
+	font-size: x-large;
+	border-radius: 9px;
+	border-color: white;
+	color: white;
+}
+.spbank1:hover
+{
+	background-color: red;
+}
+.title::before
+{
+	content:'';
+	background:#7b1798;
+	height:5px;
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	transform:translatey(63px);
+}
+.title::after
+{
+	content:'';
+	background:#7b1798;
+	height:10px;
+	width:50px;
+	margin-left:auto;
+	margin-right:auto;
+    margin-bottom:40px;
+    display: block;
+	transform:translatey(8px);
+}
+#features .btn-primary
+{
+	box-shadow:none;
+	padding:10px 25px;
+	border:none;
+	align-content: center;
+	background-image:linear-gradient(to right,#a517ba,#5f1782)
+}
+/* Action*/
+  #action{
+    background-color:black;
+    padding: 7% 15%;
+    text-align: center;
+    line-height: 1.5;
+    color: #fff;
+  }
+  .main{
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 10px 0px;
+  }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* footer */
+#footer{
+	background-color:blue;
+	font-style: italic;
+    color:white;
+    padding: 4% 15%;
+    text-align: center;
+}
+.row{
+	display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    font-style: italic;
+    color: darkblue;
+}

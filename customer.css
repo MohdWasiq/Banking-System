@@ -1,0 +1,69 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#nav-bar
+{
+	background-color:aquamarine;
+	position: sticky;
+	top:0;
+	z-index:10;
+	float: right;
+}
+.navbar
+{
+    padding: 0 !important;
+    background-color: red;
+}
+
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+color:#fff !important;
+font-weight:600;
+float:right;
+text-align:left;
+}
+
+.navbar-brand{
+    font-size: 1.5rem;
+    color: #5f6368!important;
+
+}
+
+.nav-link{
+    float: right;
+    color: #5f6368!important;
+
+}
+
+.nav-link:hover{
+    background-color: black;
+}
+/* navbar css ends here  */
+#main
+{
+	text-align: center;
+    background-color:black;
+}
+.my-info{
+    padding: 2rem 5rem;
+}
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color: rgb(227 31 31)!important;
+    color: #fff!important;
+    margin-left: 18px;
+    padding: 0.75rem;
+
+    transition: all 0.3s;
+}
+
+.btn-info:hover{
+    background-color: #c93461!important;
+}
